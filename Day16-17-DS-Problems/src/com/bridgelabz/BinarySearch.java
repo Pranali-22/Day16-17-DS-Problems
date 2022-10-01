@@ -3,7 +3,6 @@
  */
 package com.bridgelabz;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -42,6 +41,7 @@ public class BinarySearch {
 		String[] wordList = fileData.split(" ");
 		Arrays.sort(wordList);
 		
+		System.out.println("Array of words after sort ");
 		for(int i=0; i<wordList.length;i++) {
 			System.out.println(wordList[i]);
 		}
